@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-03-25 21:30:16.819518600 UTC
+// 2026-03-31 23:11:29.764452300 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: panorama.dll
