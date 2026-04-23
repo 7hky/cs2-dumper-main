@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-04-21 23:33:21.285887700 UTC
+// 2026-04-23 02:11:54.939780400 UTC
 
 namespace CS2Dumper.Offsets {
     // Module: client.dll
@@ -8,10 +8,10 @@ namespace CS2Dumper.Offsets {
         public const nint dwEntityList = 0x24CED50;
         public const nint dwGameEntitySystem = 0x24CED50;
         public const nint dwGameEntitySystem_highestEntityIndex = 0x2090;
-        public const nint dwGameRules = 0x19EEB18;
+        public const nint dwGameRules = 0x2328F38;
         public const nint dwGlobalVars = 0x20496A0;
         public const nint dwGlowManager = 0x2325D30;
-        public const nint dwLocalPlayerController = 0x2308540;
+        public const nint dwLocalPlayerController = 0x2308520;
         public const nint dwLocalPlayerPawn = 0x20547A0;
         public const nint dwPlantedC4 = 0x2336A48;
         public const nint dwPrediction = 0x20546B0;
@@ -20,7 +20,7 @@ namespace CS2Dumper.Offsets {
         public const nint dwViewAngles = 0x233E408;
         public const nint dwViewMatrix = 0x232EAC0;
         public const nint dwViewRender = 0x232DCB8;
-        public const nint dwWeaponC4 = 0x22A6CE8;
+        public const nint dwWeaponC4 = 0x22A6CB8;
     }
     // Module: engine2.dll
     public static class Engine2Dll {
