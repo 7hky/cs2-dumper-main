@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-09-24 13:14:43.071014800 UTC
+// 2026-09-26 17:20:43.538782600 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -9487,7 +9487,7 @@ pub mod cs2_dumper {
                 pub const m_bPvsModifyEntity: usize = 0x1B8; // bool
             }
             // Parent: CBasePlayerWeapon
-            // Field count: 56
+            // Field count: 58
             pub mod CCSWeaponBase {
                 pub const m_bRemoveable: usize = 0xEF8; // bool
                 pub const m_bPlayerAmmoStockOnPickup: usize = 0xEF9; // bool
@@ -9521,12 +9521,14 @@ pub mod cs2_dumper {
                 pub const m_bStealthy: usize = 0xFC0; // bool
                 pub const m_bInSilentReloadSection: usize = 0xFC1; // bool
                 pub const m_bSilentReloadStatCounted: usize = 0xFC2; // bool
+                pub const m_bSilentReloadStatPending: usize = 0xFC3; // bool
                 pub const m_flStealthHoldStartTime: usize = 0xFC4; // GameTime_t
-                pub const m_flWeaponActionPlaybackRate: usize = 0xFC8; // float32
-                pub const m_iOriginalTeamNumber: usize = 0xFCC; // int32
-                pub const m_iMostRecentTeamNumber: usize = 0xFD0; // int32
-                pub const m_bDroppedNearBuyZone: usize = 0xFD4; // bool
-                pub const m_flNextAttackRenderTimeOffset: usize = 0xFD8; // float32
+                pub const m_bReloadHeldSinceStart: usize = 0xFC8; // bool
+                pub const m_flWeaponActionPlaybackRate: usize = 0xFCC; // float32
+                pub const m_iOriginalTeamNumber: usize = 0xFD0; // int32
+                pub const m_iMostRecentTeamNumber: usize = 0xFD4; // int32
+                pub const m_bDroppedNearBuyZone: usize = 0xFD8; // bool
+                pub const m_flNextAttackRenderTimeOffset: usize = 0xFDC; // float32
                 pub const m_bCanBePickedUp: usize = 0xFF0; // bool
                 pub const m_bUseCanOverrideNextOwnerTouchTime: usize = 0xFF1; // bool
                 pub const m_nextOwnerTouchTime: usize = 0xFF4; // GameTime_t
@@ -10937,7 +10939,7 @@ pub mod cs2_dumper {
             pub mod CPulseCell_ApplyDynamicAttributeString {
             }
             // Parent: None
-            // Field count: 12
+            // Field count: 13
             pub mod CSmokeGrenadeProjectile {
                 pub const m_nSmokeEffectTickBegin: usize = 0xB68; // int32
                 pub const m_bDidSmokeEffect: usize = 0xB6C; // bool
@@ -10947,10 +10949,11 @@ pub mod cs2_dumper {
                 pub const m_VoxelFrameData: usize = 0xB90; // CNetworkUtlVectorBase<uint8>
                 pub const m_nVoxelFrameDataSize: usize = 0xBA8; // int32
                 pub const m_nVoxelUpdate: usize = 0xBAC; // int32
-                pub const m_flLastBounce: usize = 0xBB0; // GameTime_t
-                pub const m_fllastSimulationTime: usize = 0xBB4; // GameTime_t
-                pub const m_bExplodeFromInferno: usize = 0x2E38; // bool
-                pub const m_bDidGroundScorch: usize = 0x2E39; // bool
+                pub const m_nSmokeLightProbeRegen: usize = 0xBB0; // uint8
+                pub const m_flLastBounce: usize = 0xBB4; // GameTime_t
+                pub const m_fllastSimulationTime: usize = 0xBB8; // GameTime_t
+                pub const m_bExplodeFromInferno: usize = 0x2E40; // bool
+                pub const m_bDidGroundScorch: usize = 0x2E41; // bool
             }
             // Parent: CPointEntity
             // Field count: 4

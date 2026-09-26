@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-09-24 13:14:43.071014800 UTC
+// 2026-09-26 17:20:43.538782600 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: server.dll
@@ -9273,7 +9273,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bPvsModifyEntity = 0x1B8; // bool
         }
         // Parent: CBasePlayerWeapon
-        // Field count: 56
+        // Field count: 58
         public static class CCSWeaponBase {
             public const nint m_bRemoveable = 0xEF8; // bool
             public const nint m_bPlayerAmmoStockOnPickup = 0xEF9; // bool
@@ -9307,12 +9307,14 @@ namespace CS2Dumper.Schemas {
             public const nint m_bStealthy = 0xFC0; // bool
             public const nint m_bInSilentReloadSection = 0xFC1; // bool
             public const nint m_bSilentReloadStatCounted = 0xFC2; // bool
+            public const nint m_bSilentReloadStatPending = 0xFC3; // bool
             public const nint m_flStealthHoldStartTime = 0xFC4; // GameTime_t
-            public const nint m_flWeaponActionPlaybackRate = 0xFC8; // float32
-            public const nint m_iOriginalTeamNumber = 0xFCC; // int32
-            public const nint m_iMostRecentTeamNumber = 0xFD0; // int32
-            public const nint m_bDroppedNearBuyZone = 0xFD4; // bool
-            public const nint m_flNextAttackRenderTimeOffset = 0xFD8; // float32
+            public const nint m_bReloadHeldSinceStart = 0xFC8; // bool
+            public const nint m_flWeaponActionPlaybackRate = 0xFCC; // float32
+            public const nint m_iOriginalTeamNumber = 0xFD0; // int32
+            public const nint m_iMostRecentTeamNumber = 0xFD4; // int32
+            public const nint m_bDroppedNearBuyZone = 0xFD8; // bool
+            public const nint m_flNextAttackRenderTimeOffset = 0xFDC; // float32
             public const nint m_bCanBePickedUp = 0xFF0; // bool
             public const nint m_bUseCanOverrideNextOwnerTouchTime = 0xFF1; // bool
             public const nint m_nextOwnerTouchTime = 0xFF4; // GameTime_t
@@ -10723,7 +10725,7 @@ namespace CS2Dumper.Schemas {
         public static class CPulseCell_ApplyDynamicAttributeString {
         }
         // Parent: None
-        // Field count: 12
+        // Field count: 13
         public static class CSmokeGrenadeProjectile {
             public const nint m_nSmokeEffectTickBegin = 0xB68; // int32
             public const nint m_bDidSmokeEffect = 0xB6C; // bool
@@ -10733,10 +10735,11 @@ namespace CS2Dumper.Schemas {
             public const nint m_VoxelFrameData = 0xB90; // CNetworkUtlVectorBase<uint8>
             public const nint m_nVoxelFrameDataSize = 0xBA8; // int32
             public const nint m_nVoxelUpdate = 0xBAC; // int32
-            public const nint m_flLastBounce = 0xBB0; // GameTime_t
-            public const nint m_fllastSimulationTime = 0xBB4; // GameTime_t
-            public const nint m_bExplodeFromInferno = 0x2E38; // bool
-            public const nint m_bDidGroundScorch = 0x2E39; // bool
+            public const nint m_nSmokeLightProbeRegen = 0xBB0; // uint8
+            public const nint m_flLastBounce = 0xBB4; // GameTime_t
+            public const nint m_fllastSimulationTime = 0xBB8; // GameTime_t
+            public const nint m_bExplodeFromInferno = 0x2E40; // bool
+            public const nint m_bDidGroundScorch = 0x2E41; // bool
         }
         // Parent: CPointEntity
         // Field count: 4
