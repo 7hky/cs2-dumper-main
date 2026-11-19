@@ -1,0 +1,4 @@
+cargo:rerun-if-changed=Cargo.toml
+cargo:rerun-if-changed=Cargo.lock
+cargo:rustc-check-cfg=cfg(memflow_plugin_api, values("1", "2"))
+cargo:rustc-cfg=memflow_plugin_api="1"
